@@ -1,0 +1,3 @@
+{
+ "run_list": [ "recipe[chef_handler]","recipe[windows]","recipe[EAM::default]","recipe[EAM::batchran]" ]
+}
