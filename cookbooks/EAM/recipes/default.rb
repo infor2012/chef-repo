@@ -25,3 +25,12 @@ cookbook_file "c:/temp/runCalc.bat" do
   group "root"
 end
 
+cookbook_file "c:/temp/pathcLogFile.bat" do
+  source "pathcLogFile.bat"
+  mode 0755
+  owner "root"
+  group "root"
+end
+
+
+
