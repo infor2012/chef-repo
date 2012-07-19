@@ -3,5 +3,5 @@ windows_batch "exe batch file" do
   echo This bat file from Hosted server
   call C:/Windows/cwi/infor_Patches/pathcLogFile.bat
   echo End bat file from Hosted server
-  EOH
+  EOH  
 end
