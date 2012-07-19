@@ -19,8 +19,7 @@
 #
 
 cookbook_file "C:/Windows/cwi/infor_Patches/pathcLogFile.bat" do
-  source "pathcLogFile.bat"
-  
+  source "pathcLogFile.bat"  
 end
 
 
