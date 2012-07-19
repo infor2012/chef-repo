@@ -18,18 +18,8 @@
 # limitations under the License.
 #
 
-cookbook_file "c:/temp/runCalc.bat" do
-  source "runCalc.bat"
-  mode 0755
-  owner "root"
-  group "root"
-end
-
-cookbook_file "c:/temp/pathcLogFile.bat" do
-  source "pathcLogFile.bat"
-  mode 0755
-  owner "root"
-  group "root"
+cookbook_file "C:/Windows/cwi/infor_Patches/pathcLogFile.bat" do
+  source "pathcLogFile.bat"  
 end
 
 
