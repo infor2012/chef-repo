@@ -1,0 +1,1 @@
+echo Patch6 has Installed successful. >> Patch6_log.txt
