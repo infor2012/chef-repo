@@ -18,8 +18,8 @@
 # limitations under the License.
 #
 
-cookbook_file "C:/Windows/cwi/infor_Patches/run_app_patch.bat" do
-  source "run_app_patch.bat"  
+cookbook_file "C:/Windows/cwi/infor_Patches/run_db_patch.bat" do
+  source "run_db_patch.bat"  
 end
 
 

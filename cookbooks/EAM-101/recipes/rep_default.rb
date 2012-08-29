@@ -18,8 +18,8 @@
 # limitations under the License.
 #
 
-cookbook_file "C:/Windows/cwi/infor_Patches/pathcLogFile.bat" do
-  source "pathcLogFile.bat"  
+cookbook_file "C:/Windows/cwi/infor_Patches/run_rep_patch.bat" do
+  source "run_rep_patch.bat"  
 end
 
 
