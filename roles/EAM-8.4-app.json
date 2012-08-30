@@ -1,0 +1,9 @@
+{
+    "name": "app",
+    "default_attributes": {},
+    "override_attributes": {},
+    "json_class": "Chef::Role",
+    "description": "This is just a Application role, no big deal.",
+    "chef_type": "role",
+    "run_list": [ "recipe[chef_handler]","recipe[windows]","recipe[EAM-101::app_default]","recipe[EAM-101::app_batchran]" ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "db",
+    "default_attributes": {},
+    "override_attributes": {},
+    "json_class": "Chef::Role",
+    "description": "This is just a Database role, no big deal.",
+    "chef_type": "role",
+    "run_list": [ "recipe[chef_handler]","recipe[windows]","recipe[EAM-101::db_default]","recipe[EAM-101::db_batchran]" ]
+}
