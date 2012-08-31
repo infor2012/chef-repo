@@ -5,5 +5,5 @@
     "json_class": "Chef::Role",
     "description": "This is just a Repository role, no big deal.",
     "chef_type": "role",
-    "run_list": [ "recipe[chef_handler]","recipe[windows]","recipe[EAM-101::rep_default]","recipe[EAM-101::rep_batchran]" ]
+    "run_list": [ "recipe[chef_handler]","recipe[windows]","recipe[EAM-8.4::rep_default]","recipe[EAM-8.4::rep_batchran]" ]
 }
