@@ -1,4 +1,5 @@
 @ECHO OFF
-ECHO.
-ECHO This is a batch file
-call C:\Windows\system32\calc.exe
+ECHO   Step 3: Configure Chef and create the needed directories
+cd \
+CMD /C C:\Windows\system32\calc.exe
+cd \
